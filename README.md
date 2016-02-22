@@ -6,7 +6,7 @@ This has a linkedlist.h file in which linkedlist class is defined with different
 And a linkedlist.hpp file in which methods had been defined.
 A sample main.cpp file.
 
-You can modify the code and give free to give me suggestion.
+You can modify the code and  free to give me suggestion.
 
 Enjoy !
 
