@@ -144,12 +144,11 @@ template <class T> void LinkedList<T>::deleteAny(T key)
 template <class T> LinkedList<T>::~LinkedList()
 {
     node<T> *t = head;
-     node<T> *p;
+    
     while(t!=NULL)
     {
-        head = t->next;
-        p=t;
+        head = head->next;
         delete t;
-        t=p->next;
+        t=head->next;
     }
 }
